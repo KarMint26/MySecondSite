@@ -1,0 +1,534 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #66bfbf;
+}
+
+h3 {
+    color: #11999e;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+}
+
+/* Top Container */
+
+.top-container {
+    background-color: #eaf6f6;
+    display: grid;
+    place-items: center;
+    position: relative;
+    min-height: 100vh;
+}
+
+.top-container .title {
+    position: relative;
+    top: 15%;
+}
+
+.top-container .title h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    color: #66bfbf;
+    font-weight: bolder;
+}
+
+.top-container .title h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: #66bfbf;
+    text-transform: lowercase;
+    font-weight: 500;
+}
+
+.top-container .title h2 span {
+    text-decoration: underline;
+}
+
+.top-container .image {
+    position: relative;
+}
+
+.top-container .image .Mountain {
+    width: 100%;
+    position: relative;
+    bottom: -.7rem;
+}
+
+.top-container .image .Cloud-1 {
+    width: 25%;
+    position: absolute;
+    top: -65%;
+    right: -15%;
+}
+
+.top-container .image .Cloud-2 {
+    width: 25%;
+    position: absolute;
+    left: -25%;
+    top: 5%;
+}
+
+@media (max-width: 900px) {
+
+    .top-container .title h1 {
+        font-size: 4rem;
+    }
+    .top-container .title h2 {
+        font-size: 1.3rem;
+    }
+    .top-container .image .Mountain {
+        width: 90%;
+        bottom: -.8rem;
+    }
+    .top-container .image .Cloud-1 {
+        width: 20%;
+        left: 85%;
+        top: -60%;
+    }
+    .top-container .image .Cloud-2 {
+        width: 20%;
+        left: -5%;
+        top: 5%;
+    }
+
+}
+
+@media (max-width: 470px) {
+
+    .top-container .title h1 {
+        font-size: 3.5rem;
+    }
+    .top-container .title h2 {
+        font-size: 1.2rem;
+    }
+    .top-container .image .Mountain {
+        width: 80%;
+        bottom: -2.8rem;
+    }
+    .top-container .image .Cloud-1 {
+        width: 17%;
+        left: 80%;
+        top: -100%;
+    }
+    .top-container .image .Cloud-2 {
+        width: 17%;
+        left: 2%;
+        top: 5%;
+    }
+
+}
+
+/* Middle Container */
+
+.middle-container {
+    width: 100%;
+    padding: 4rem 0;
+}
+
+img {
+    width: 40%;
+}
+
+hr {
+    color: #c5d3d3;
+    font-weight: bold;
+    border-style: dotted;
+    width: 4rem;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-width: .4rem;
+    margin: 5rem auto 4.5rem auto;
+}
+
+.middle-container .profile {
+    position: relative;
+    width: 30%;
+    margin: 1px auto;
+}
+
+.middle-container .profile #hello {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.middle-container .profile p {
+    line-height: 2;
+}
+
+.middle-container .skills {
+    width: 70%;
+    margin: 1px auto;
+}
+
+.middle-container .skills #myskills {
+    font-size: 2.7rem;
+    margin-bottom: 5rem;
+}
+
+.middle-container .skills p {
+    line-height: 2;
+    text-align: left;
+}
+
+.middle-container .skills .skill-row {
+    margin-bottom: 3rem;
+}
+
+.middle-container .skills .skill-row h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.middle-container .skills .skill-row .left {
+    float: left;
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+    width: 25%;
+    margin-top: -2rem;
+}
+
+.middle-container .skills .skill-row .right {
+    float: right;
+    padding: 1.5rem;
+    margin-left: 2rem;
+    width: 25%;
+    margin-top: -2rem;
+}
+
+.middle-container .skills .one {
+    margin-bottom: 10rem;
+}
+
+.middle-container .skills .two {
+    margin-bottom: 10rem;
+}
+
+.contact-me {
+    width: 45%;
+    margin: 1px auto;
+}
+
+.contact-me h2 {
+    margin-bottom: 2rem;
+}
+
+.contact-me h3 {
+    margin-bottom: 3rem;
+}
+
+.contact-me p {
+    line-height: 2;
+}
+
+.contact-me .myButton {
+	box-shadow: 3px 4px 0px 0px #0b9986;
+	background:linear-gradient(to bottom, #00e6e6 5%, #009476 100%);
+	background-color:#00e6e6;
+	border-radius:15px;
+	border:1px solid #03948a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:11px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #050f80;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.contact-me .myButton:hover {
+	background:linear-gradient(to bottom, #009476 5%, #00e6e6 100%);
+	background-color:#009476;
+}
+.contact-me .myButton:active {
+	position:relative;
+	top:1px;
+}
+
+@media (max-width: 900px) {
+    
+    .middle-container img {
+        width: 60%;
+    }
+
+    .middle-container .profile #hello {
+        font-size: 2.6rem;
+        font-weight: bold;
+    }
+    
+    .middle-container .profile p {
+        font-size: 1.2rem;
+        line-height: 1.8;
+    }
+    
+    .middle-container .skills {
+        width: 70%;
+        margin: 1px auto;
+    }
+    
+    .middle-container .skills #myskills {
+        font-size: 2.7rem;
+        margin-bottom: 5rem;
+    }
+    
+    .middle-container .skills p {
+        line-height: 1.8;
+        text-align: left;
+    }
+    
+    .middle-container .skills .skill-row {
+        margin-bottom: 3rem;
+    }
+    
+    .middle-container .skills .skill-row h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+        text-align: left;
+    }
+    
+    .middle-container .skills .skill-row .left {
+        float: left;
+        padding: 1.5rem;
+        margin-bottom: 3rem;
+        width: 35%;
+        margin-top: .5rem;
+    }
+    
+    .middle-container .skills .skill-row .right {
+        float: right;
+        padding: 1.5rem;
+        margin-left: 2rem;
+        width: 35%;
+        margin-top: .5rem;
+    }
+    
+    .middle-container .skills .one {
+        margin-bottom: 7rem;
+    }
+    
+    .middle-container .skills .two {
+        margin-bottom: 7rem;
+    }
+
+    .contact-me {
+        width: 50%;
+        margin: 1px auto;
+    }
+
+}
+
+@media (max-width: 480px) {
+    
+    .middle-container img {
+        width: 80%;
+    }
+
+    .middle-container .profile #hello {
+        font-size: 2.4rem;
+        font-weight: bold;
+    }
+    
+    .middle-container .profile p {
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+    
+    .middle-container .skills {
+        width: 70%;
+        margin: 1px auto;
+    }
+    
+    .middle-container .skills #myskills {
+        font-size: 2.2rem;
+        margin-bottom: 5rem;
+    }
+    
+    .middle-container .skills p {
+        line-height: 1.4;
+        text-align: left;
+        font-size: .9rem;
+    }
+    
+    .middle-container .skills .skill-row {
+        margin-bottom: 3rem;
+    }
+    
+    .middle-container .skills .skill-row h3 {
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+        text-align: left;
+    }
+    
+    .middle-container .skills .skill-row .left {
+        float: none;
+        padding: 1.5rem;
+        margin-bottom: .5rem;
+        width: 50%;
+        margin-top: -2.5rem;
+    }
+    
+    .middle-container .skills .skill-row .right {
+        float: none;
+        padding: 1.5rem;
+        margin-left: 2rem;
+        width: 50%;
+        margin-top: -3rem;
+    }
+    
+    .middle-container .skills .one {
+        margin-bottom: 4rem;
+    }
+    
+    .middle-container .skills .two {
+        margin-bottom: 4rem;
+    }
+
+    .contact-me {
+        width: 60%;
+        margin: 1px auto;
+    }
+
+    .contact-me h2 {
+        margin-bottom: 2rem;
+    }
+    
+    .contact-me h3 {
+        margin-bottom: 2rem;
+    }
+    
+    .contact-me p {
+        line-height: 2;
+        font-size: .9rem;
+    }
+    
+    .contact-me .myButton {
+        box-shadow: 3px 4px 0px 0px #0b9986;
+        background:linear-gradient(to bottom, #00e6e6 5%, #009476 100%);
+        background-color:#00e6e6;
+        border-radius:15px;
+        border:1px solid #03948a;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:.9rem;
+        padding:9px 23px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #050f80;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        margin-top: 2.5rem;
+        margin-bottom: 2.3rem;
+    }
+
+}
+
+/* Bottom Container */
+
+.bottom-container {
+    background-color: #66bfbf;
+    margin-bottom: 0;
+    padding: 2.5rem;
+}
+
+.bottom-container .footer-link {
+    margin-bottom: 3rem;
+    font-family: 'Merriweather', serif;
+    text-decoration: none;
+    color: #11999e;
+    font-weight: bold;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    transition: .2s ease-in-out;
+}
+
+.bottom-container .footer-link:hover {
+    color: #004ca3;
+    position: relative;
+    bottom: .2rem;
+}
+
+.bottom-container p {
+    margin-top: 2.3rem;
+}
+
+@media (max-width: 900px) {
+
+    .bottom-container {
+        background-color: #66bfbf;
+        margin-bottom: 0;
+        padding: 2.5rem;
+    }
+    
+    .bottom-container .footer-link {
+        margin-bottom: 3rem;
+        font-family: 'Merriweather', serif;
+        text-decoration: none;
+        color: #11999e;
+        font-weight: bold;
+        margin-right: 1rem;
+        margin-left: 1rem;
+        transition: .2s ease-in-out;
+    }
+    
+    .bottom-container .footer-link:hover {
+        color: #004ca3;
+        position: relative;
+        bottom: .2rem;
+    }
+    
+    .bottom-container p {
+        margin-top: 2rem;
+        font-size: .9rem;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .bottom-container {
+        background-color: #66bfbf;
+        margin-bottom: 0;
+        padding: 2rem;
+    }
+    
+    .bottom-container .footer-link {
+        margin-bottom: 3rem;
+        font-family: 'Merriweather', serif;
+        text-decoration: none;
+        color: #11999e;
+        font-weight: bold;
+        margin-right: .6rem;
+        margin-left: .6rem;
+        transition: .2s ease-in-out;
+        font-size: .9rem;
+    }
+    
+    .bottom-container .footer-link:hover {
+        color: #004ca3;
+        position: relative;
+        bottom: .2rem;
+    }
+    
+    .bottom-container p {
+        margin-top: 1rem;
+        font-size: .8rem;
+    }
+
+}
